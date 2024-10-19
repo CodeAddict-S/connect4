@@ -1,0 +1,44 @@
+.test{
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+    cursor: crosshair;
+}
+
+.board{
+    margin-top: 25px;
+}
+
+.flex{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.debug{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+}
+
+.var{
+    display: none;
+}
+
+.text-center{
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+body{
+    background-color: black;
+}
